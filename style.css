@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+nav {
+width: 1600px;
+height: 92px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 16px 120px 16px 120px;
+}
+
+.logo-navbar{
+    width: 139px;
+    height: 60px;
+}
+
+nav  .menu {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 32px;
+    align-items: center;
+    font-size: 16;
+}
+
+
+nav .menu a{
+    text-decoration: none;
+}
+
