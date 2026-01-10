@@ -1,5 +1,9 @@
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
 
 
 
@@ -26,10 +30,33 @@ nav  .menu {
     gap: 32px;
     align-items: center;
     font-size: 16;
+    
+
 }
 
 
 nav .menu a{
     text-decoration: none;
+    color: black;
+}
+
+.btn-early{
+    background-color: #30b868;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 12px;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    border: none;
+}
+
+section{
+    background: url(./assets/hero-bg.png),linear-gradient(rgb(10,25,41,0.8));
+    width: 1600px;
+    height: 674px;
+    background-repeat: no-repeat;
+    border: none;
+    
 }
 
