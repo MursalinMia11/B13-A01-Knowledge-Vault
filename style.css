@@ -50,7 +50,22 @@ nav .menu a{
     cursor: pointer;
     border: none;
 }
+.btn-start{
+    background-color: #30b868;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 12px;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    border: none;
+}
 
+.btn-start img{
+    width: 20;
+    height: 20;
+
+}
 section{
     background: url(./assets/hero-bg.png),linear-gradient(rgb(10,25,41,0.8));
     width: 1600px;
@@ -58,5 +73,26 @@ section{
     background-repeat: no-repeat;
     border: none;
     
+}
+
+.Structured h1{
+         color: #FFFFFF;
+         font-weight: bolder;
+
+}
+.Structured h2{
+         color: #30b868;
+         font-weight: bolder;
+
+}
+.Structured{
+width: 1360px;
+height: 379px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
 }
 
