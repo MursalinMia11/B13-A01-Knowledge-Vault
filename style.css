@@ -92,7 +92,6 @@ text-align: center;
 
 .hero-container p{
            text-align: center;
-           weight: 1360px ;
            height: 60px;
            color: white ;
            
@@ -102,7 +101,6 @@ text-align: center;
     background: white;
     padding: 5px 15px;
     border-radius: 20px;
-    border: 1000px;
     font-size: 12px;
     text-align: center;
     width: 183px;
@@ -133,6 +131,7 @@ text-align: center;
     padding: 80px 10%;
 }
 .card-container {
+    max-width: 1360px;
     display: flex;
     gap: 20px;
     margin-top: 50px;
@@ -149,4 +148,5 @@ text-align: center;
 .card .icon {
     font-size: 30px;
     margin-bottom: 15px;
+    background: none;
 }
