@@ -47,6 +47,10 @@ nav .menu a{
     cursor: pointer;
     border: none;
 }
+
+.btn-early :hover{
+    background-color: #eb8909;
+}
 .btn-start{
     background-color: #30b868;
     color: #FFFFFF;
@@ -56,6 +60,10 @@ nav .menu a{
     font-size: 16;
     cursor: pointer;
     border: none;
+}
+
+.btn-start :hover{
+    background-color: aqua;
 }
 
 .btn-start img{
@@ -118,7 +126,8 @@ text-align: center;
 .btn{
      background: none;
      color: #FFFFFF;
-     cursor: pointer;border-radius: 4px;
+     cursor: pointer;
+     border-radius: 4px;
     padding: 16px 12px;
     font-weight: bold;
     font-size: 16;
